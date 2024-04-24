@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2020",        // Set target as per Node.js version compatibility
+    "module": "ESNext",      // CommonJS modules for Node.js
+    "lib": ["es2020"],         // Include library files for ES2020
+    "outDir": "./dist",        // Output directory for compiled files
+    "rootDir": "./src",        // Root directory of source files
+    "strict": true,            // Enable all strict type-checking options
+    "esModuleInterop": true,   // Enables interoperability between CommonJS and ES Modules
+    "skipLibCheck": true,      // Skip type checking of all declaration files (*.d.ts)
+    "forceConsistentCasingInFileNames": true // Ensure case sensitivity
+  },
+  "include": ["src/**/*.ts"],  // Include all TypeScript files in src directory
+  "exclude": ["node_modules"]  // Exclude node_modules
+}
